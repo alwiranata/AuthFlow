@@ -35,6 +35,7 @@ const Register = () => {
 
         setError("")
         alert("Registered sucessfully")
+        navigate("/login")
 
     }
     const handleNavigate = () => {
